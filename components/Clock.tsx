@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffectOnce } from "usehooks-ts";
 
 export default function Clock() {
   // For digital clock
@@ -16,6 +17,9 @@ export default function Clock() {
     });
     setCTime(time);
   };
-  setInterval(updateTime, 1000);
+  useEffectOnce(() => {
+    setInterval(updateTime, 1000);
+  });
+
   return <>{ctime}</>;
 }

@@ -1,0 +1,2451 @@
+{
+                "id": 1,
+                "abbreviation": "Abcoude",
+                "name": "Hockey Vereniging Abcoude",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AA4",
+                "locality": "Abcoude"
+            }, {
+                "id": 234,
+                "abbreviation": "Rood-Wit",
+                "name": "A.M.H.C. Rood-Wit",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NT6",
+                "locality": "AERDENHOUT"
+            }, {
+                "id": 315,
+                "abbreviation": "Druten",
+                "name": "Hockey Club Druten",
+                "federation_login": "LISA",
+                "federation_reference_id": "MD56QY6",
+                "locality": "Afferden gld"
+            }, {
+                "id": 251,
+                "abbreviation": "Souburgh",
+                "name": "Alblasserwaardse Hockeyclub Souburgh",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PP4",
+                "locality": "Alblasserdam"
+            }, {
+                "id": 6,
+                "abbreviation": "Alkmaar",
+                "name": "Alkmaarsche M.H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AJ7",
+                "locality": "Alkmaar"
+            }, {
+                "id": 8,
+                "abbreviation": "Almelo",
+                "name": "MHC Almelo",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AL1",
+                "locality": "Almelo"
+            }, {
+                "id": 9,
+                "abbreviation": "Almere",
+                "name": "Almeerse HC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AM8",
+                "locality": "ALMERE"
+            }, {
+                "id": 322,
+                "abbreviation": "Buitenhout",
+                "name": "Buitenhout MHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "MG21QL8",
+                "locality": "Almere"
+            }, {
+                "id": 10,
+                "abbreviation": "Alphen",
+                "name": "HC Alphen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AN5",
+                "locality": "Alphen aan den Rijn"
+            }, {
+                "id": 112,
+                "abbreviation": "Haaskamp",
+                "name": "Hockeyclub De Haaskamp",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GL9",
+                "locality": "Amerongen"
+            }, {
+                "id": 43,
+                "abbreviation": "Eemvallei",
+                "name": "H.C. Eemvallei",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CF5",
+                "locality": "Amersfoort"
+            }, {
+                "id": 11,
+                "abbreviation": "Amersfoort",
+                "name": "Hockeyclub Amersfoort",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AP9",
+                "locality": "Amersfoort"
+            }, {
+                "id": 13,
+                "abbreviation": "Amsterdam",
+                "name": "AH & BC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AR3",
+                "locality": "Amstelveen"
+            }, {
+                "id": 133,
+                "abbreviation": "HIC",
+                "name": "HIC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HP0",
+                "locality": "Amstelveen"
+            }, {
+                "id": 14,
+                "abbreviation": "AMVJ",
+                "name": "Hockeyclub AMVJ",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AS0",
+                "locality": "Amstelveen"
+            }, {
+                "id": 282,
+                "abbreviation": "VVV",
+                "name": "Hockeyclub VVV",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RD6",
+                "locality": "Amstelveen"
+            }, {
+                "id": 195,
+                "abbreviation": "Myra",
+                "name": "HV Myra",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LV4",
+                "locality": "Amstelveen"
+            }, {
+                "id": 12,
+                "abbreviation": "Amstelveen",
+                "name": "MHC Amstelveen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AQ6",
+                "locality": "Amstelveen"
+            }, {
+                "id": 217,
+                "abbreviation": "Pinok\u00e9",
+                "name": "Pinok\u00e9",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MW4",
+                "locality": "Amstelveen"
+            }, {
+                "id": 153,
+                "abbreviation": "Hurley",
+                "name": "THC Hurley",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JR0",
+                "locality": "Amstelveen"
+            }, {
+                "id": 318,
+                "abbreviation": "IJburg",
+                "name": "AHC IJburg",
+                "federation_login": "LISA",
+                "federation_reference_id": "MG20CJ7",
+                "locality": "Amsterdam"
+            }, {
+                "id": 533,
+                "abbreviation": "Noorderlicht",
+                "name": "AHC Noorderlicht",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK27NK0",
+                "locality": "Amsterdam"
+            }, {
+                "id": 86,
+                "abbreviation": "FIT",
+                "name": "A.M.H.C. F.I.T.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FG1",
+                "locality": "Amsterdam"
+            }, {
+                "id": 316,
+                "abbreviation": "Westerpark",
+                "name": "AMHC Westerpark",
+                "federation_login": "LISA",
+                "federation_reference_id": "MF15SY7",
+                "locality": "Amsterdam"
+            }, {
+                "id": 343,
+                "abbreviation": "Dynamics",
+                "name": "Amsterdam Dynamics Hockey",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK24MP7",
+                "locality": "AMSTERDAM"
+            }, {
+                "id": 309,
+                "abbreviation": "AthenA",
+                "name": "HC Athena",
+                "federation_login": "LISA",
+                "federation_reference_id": "LV95KY6",
+                "locality": "Amsterdam"
+            }, {
+                "id": 297,
+                "abbreviation": "Xenios",
+                "name": "Xenios",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RY3",
+                "locality": "Amsterdam"
+            }, {
+                "id": 15,
+                "abbreviation": "Apeldoorn",
+                "name": "Apeldoornsche (M.H.C.)",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11AV1",
+                "locality": "Apeldoorn"
+            }, {
+                "id": 17,
+                "abbreviation": "Ares",
+                "name": "HC Ares",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AX5",
+                "locality": "Apeldoorn"
+            }, {
+                "id": 271,
+                "abbreviation": "Upward",
+                "name": "Arnhemse Mixed Hockey Club Upward",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QP7",
+                "locality": "Arnhem"
+            }, {
+                "id": 181,
+                "abbreviation": "HCM",
+                "name": "HCM Arnhem",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LB4",
+                "locality": "Arnhem"
+            }, {
+                "id": 208,
+                "abbreviation": "Ommen",
+                "name": "Mixed Hockey Club Ommen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11ML7",
+                "locality": "Arrien"
+            }, {
+                "id": 154,
+                "abbreviation": "HVA",
+                "name": "H.V.A.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JS7",
+                "locality": "Assen"
+            }, {
+                "id": 117,
+                "abbreviation": "HCAS",
+                "name": "H.C.A.S.  (Asten-Someren)",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GR1",
+                "locality": "Asten"
+            }, {
+                "id": 341,
+                "abbreviation": "Baarle",
+                "name": "HC Baarle Nassau",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK23NK0",
+                "locality": "Baarle-nassau"
+            }, {
+                "id": 21,
+                "abbreviation": "Baarn",
+                "name": "Baarnse Mixed Hockey Vereniging",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BC1",
+                "locality": "Baarn"
+            }, {
+                "id": 22,
+                "abbreviation": "Bakel",
+                "name": "HOB Bakel",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BD8",
+                "locality": "Bakel"
+            }, {
+                "id": 23,
+                "abbreviation": "Barendrecht",
+                "name": "Hockeyclub Barendrecht",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BF2",
+                "locality": "Barendrecht"
+            }, {
+                "id": 24,
+                "abbreviation": "Barneveld",
+                "name": "M.H.C. Barneveld",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BG9",
+                "locality": "Barneveld"
+            }, {
+                "id": 26,
+                "abbreviation": "Bedum",
+                "name": "H.C.  Bedum",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BJ0",
+                "locality": "Bedum"
+            }, {
+                "id": 28,
+                "abbreviation": "Bennebroek",
+                "name": "MHC Bennebroek",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BL4",
+                "locality": "Bennebroek"
+            }, {
+                "id": 260,
+                "abbreviation": "Tempo",
+                "name": "MHC Tempo",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QB9",
+                "locality": "Bergen op Zoom"
+            }, {
+                "id": 30,
+                "abbreviation": "Berkel-Rodenrijs",
+                "name": "Berkel en Rodenrijs",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11BP2",
+                "locality": "Berkel en Rodenrijs"
+            }, {
+                "id": 31,
+                "abbreviation": "Berlicum",
+                "name": "Hockeyclub Berlicum",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BQ9",
+                "locality": "Berlicum nb"
+            }, {
+                "id": 32,
+                "abbreviation": "Best",
+                "name": "MHC Best",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BR6",
+                "locality": "Best"
+            }, {
+                "id": 214,
+                "abbreviation": "Overbos",
+                "name": "BHC Overbos",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MS6",
+                "locality": "BEVERWIJK"
+            }, {
+                "id": 242,
+                "abbreviation": "SCHC",
+                "name": "Stichtsche Cricket & Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PD0",
+                "locality": "Bilthoven"
+            }, {
+                "id": 34,
+                "abbreviation": "Bleiswijk",
+                "name": "HV Bleiswijk",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BT0",
+                "locality": "Bleiswijk"
+            }, {
+                "id": 36,
+                "abbreviation": "Bloemendaal",
+                "name": "HC Bloemendaal",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BW1",
+                "locality": "Bloemendaal"
+            }, {
+                "id": 116,
+                "abbreviation": "HBS",
+                "name": "MHCHBS",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GQ4",
+                "locality": "Bloemendaal"
+            }, {
+                "id": 38,
+                "abbreviation": "Boekel",
+                "name": "HC Boekel",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BY5",
+                "locality": "Boekel"
+            }, {
+                "id": 40,
+                "abbreviation": "Boxmeer",
+                "name": "M.H.C. Boxmeer",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CB7",
+                "locality": "Boxmeer"
+            }, {
+                "id": 184,
+                "abbreviation": "MEP",
+                "name": "M.H.C. M.E.P. (Mea Est Pila)",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LG9",
+                "locality": "Boxtel"
+            }, {
+                "id": 41,
+                "abbreviation": "Breda",
+                "name": "BH&BC Breda",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CC4",
+                "locality": "Breda"
+            }, {
+                "id": 222,
+                "abbreviation": "Push",
+                "name": "B.H.V. Push",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NC7",
+                "locality": "Breda"
+            }, {
+                "id": 307,
+                "abbreviation": "Zwart-Wit",
+                "name": "B.N.M.H.C. Zwart-Wit",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SL5",
+                "locality": "Breda"
+            }, {
+                "id": 182,
+                "abbreviation": "Meerssen",
+                "name": "HV Meerssen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LD8",
+                "locality": "Bunde"
+            }, {
+                "id": 334,
+                "abbreviation": "Kromme Rijn",
+                "name": "HC Kromme Rijn",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK17FX6",
+                "locality": "Bunnik"
+            }, {
+                "id": 101,
+                "abbreviation": "Gooische",
+                "name": "Gooische Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FY7",
+                "locality": "Bussum"
+            }, {
+                "id": 137,
+                "abbreviation": "Hockeer",
+                "name": "H.V. HOCKEER",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HW9",
+                "locality": "Cadier en Keer"
+            }, {
+                "id": 45,
+                "abbreviation": "Capelle",
+                "name": "HC Capelle",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CH9",
+                "locality": "Capelle aan den Ijssel"
+            }, {
+                "id": 47,
+                "abbreviation": "Castricum",
+                "name": "MHC Castricum",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CK0",
+                "locality": "Castricum"
+            }, {
+                "id": 50,
+                "abbreviation": "Coevorden",
+                "name": "MHC Coevorden",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CN1",
+                "locality": "Coevorden"
+            }, {
+                "id": 49,
+                "abbreviation": "Civicum",
+                "name": "C.M.H.C. CIVICUM",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CM4",
+                "locality": "Cuijk"
+            }, {
+                "id": 54,
+                "abbreviation": "Culemborg",
+                "name": "CMHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CS6",
+                "locality": "Culemborg"
+            }, {
+                "id": 55,
+                "abbreviation": "Dalfsen",
+                "name": "MHC Dalfsen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CT3",
+                "locality": "Dalfsen"
+            }, {
+                "id": 227,
+                "abbreviation": "Qui Vive",
+                "name": "U.H.C.QUI VIVE",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NJ6",
+                "locality": "De Kwakel"
+            }, {
+                "id": 151,
+                "abbreviation": "HUDITO",
+                "name": "D.H.C. Hudito",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JP6",
+                "locality": "Delft"
+            }, {
+                "id": 67,
+                "abbreviation": "Dopie",
+                "name": "Dopie",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DJ6",
+                "locality": "Delft"
+            }, {
+                "id": 72,
+                "abbreviation": "DSHC",
+                "name": "DSHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DP8",
+                "locality": "Delft"
+            }, {
+                "id": 232,
+                "abbreviation": "Ring Pass Delft",
+                "name": "Ring Pass Delft",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NR2",
+                "locality": "Delft"
+            }, {
+                "id": 313,
+                "abbreviation": "Scoop Delft",
+                "name": "Scoop Delft",
+                "federation_login": "LISA",
+                "federation_reference_id": "MD54ZN6",
+                "locality": "Delft"
+            }, {
+                "id": 77,
+                "abbreviation": "Eemsmond",
+                "name": "H.C. Eemsmond",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DV0",
+                "locality": "Delfzijl"
+            }, {
+                "id": 132,
+                "abbreviation": "Den Bosch",
+                "name": "Hockeyclub 's-Hertogenbosch",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HM9",
+                "locality": "Den Bosch"
+            }, {
+                "id": 131,
+                "abbreviation": "Hermes",
+                "name": "HSC Hermes",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HL2",
+                "locality": "Den Helder"
+            }, {
+                "id": 60,
+                "abbreviation": "Deurne",
+                "name": "M.H.C. Deurne",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CZ5",
+                "locality": "Deurne"
+            }, {
+                "id": 61,
+                "abbreviation": "Deventer",
+                "name": "DHV",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DB0",
+                "locality": "Deventer"
+            }, {
+                "id": 345,
+                "abbreviation": "Diemen",
+                "name": "HC Diemen",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK25QK9",
+                "locality": "Diemen"
+            }, {
+                "id": 62,
+                "abbreviation": "Dieren",
+                "name": "MHC Dieren",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DC7",
+                "locality": "Dieren"
+            }, {
+                "id": 63,
+                "abbreviation": "Doetinchem",
+                "name": "Doetinchemse Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DD4",
+                "locality": "Doetinchem"
+            }, {
+                "id": 541,
+                "abbreviation": "Dokkum",
+                "name": "Dokkum",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK27RG4",
+                "locality": "DOKKUM"
+            }, {
+                "id": 172,
+                "abbreviation": "Liberty",
+                "name": "MHC Liberty",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KQ6",
+                "locality": "Dongen"
+            }, {
+                "id": 66,
+                "abbreviation": "Doorn",
+                "name": "Doornse Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DH2",
+                "locality": "Doorn"
+            }, {
+                "id": 68,
+                "abbreviation": "Dordrecht",
+                "name": "Dordrechtse Mixed Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DK3",
+                "locality": "Dordrecht"
+            }, {
+                "id": 104,
+                "abbreviation": "Graspiepers",
+                "name": "de Graspiepers",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GC6",
+                "locality": "Drachten"
+            }, {
+                "id": 244,
+                "abbreviation": "Shinty",
+                "name": "DMHC Shinty",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PG1",
+                "locality": "Driebergen-rijsenburg"
+            }, {
+                "id": 258,
+                "abbreviation": "Strawberries",
+                "name": "K.H.C. Strawberries",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PX0",
+                "locality": "Driehuis"
+            }, {
+                "id": 88,
+                "abbreviation": "Flevoland",
+                "name": "Flevoland Dronten (M.H.C.)",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11FJ2",
+                "locality": "Dronten"
+            }, {
+                "id": 71,
+                "abbreviation": "Drunen",
+                "name": "MHCD",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DN4",
+                "locality": "Drunen"
+            }, {
+                "id": 290,
+                "abbreviation": "Westerduiven",
+                "name": "Westerduiven",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RQ7",
+                "locality": "Duiven"
+            }, {
+                "id": 75,
+                "abbreviation": "Ede",
+                "name": "M.H.C. Ede",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DS9",
+                "locality": "Ede"
+            }, {
+                "id": 78,
+                "abbreviation": "Eersel",
+                "name": "HC Eersel",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DW7",
+                "locality": "Eersel"
+            }, {
+                "id": 65,
+                "abbreviation": "Don Quishoot",
+                "name": "Don Quishoot",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DG5",
+                "locality": "Eindhoven"
+            }, {
+                "id": 80,
+                "abbreviation": "Eindhoven",
+                "name": "HC Eindhoven",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DY1",
+                "locality": "Eindhoven"
+            }, {
+                "id": 337,
+                "abbreviation": "Oranje-Rood",
+                "name": "HC Oranje Rood",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK22GS0",
+                "locality": "Eindhoven"
+            }, {
+                "id": 314,
+                "abbreviation": "Overbetuwe",
+                "name": "Hockeyclub Overbetuwe",
+                "federation_login": "LISA",
+                "federation_reference_id": "MD56QW2",
+                "locality": "Elst gld"
+            }, {
+                "id": 183,
+                "abbreviation": "Meeuwen",
+                "name": "De Meeuwen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LF2",
+                "locality": "Emmeloord"
+            }, {
+                "id": 82,
+                "abbreviation": "Emmen",
+                "name": "Hockeyclub Emmen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FB6",
+                "locality": "Emmen"
+            }, {
+                "id": 331,
+                "abbreviation": "Enkhuizen (WFHC)",
+                "name": "WFHC Enkhuizen",
+                "federation_login": "LISA",
+                "federation_reference_id": "MJ66NQ4",
+                "locality": "Enkhuizen"
+            }, {
+                "id": 70,
+                "abbreviation": "Drienerlo",
+                "name": "DHC Drienerlo",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DM7",
+                "locality": "Enschede"
+            }, {
+                "id": 79,
+                "abbreviation": "EHV",
+                "name": "EHV Enschede",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DX4",
+                "locality": "ENSCHEDE"
+            }, {
+                "id": 223,
+                "abbreviation": "PW",
+                "name": "Enschedese hockeyclub Prinses Wilhelmina",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11ND4",
+                "locality": "Enschede"
+            }, {
+                "id": 83,
+                "abbreviation": "Epe",
+                "name": "MHC Epe",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FC3",
+                "locality": "Epe"
+            }, {
+                "id": 336,
+                "abbreviation": "Gorssel\/Epse",
+                "name": "HC Gorssel\/Epse",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK20MV9",
+                "locality": "Epse"
+            }, {
+                "id": 105,
+                "abbreviation": "Grave",
+                "name": "HC Grave",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GD3",
+                "locality": "Escharen"
+            }, {
+                "id": 84,
+                "abbreviation": "Etten-Leur",
+                "name": "HC Etten-Leur",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FD0",
+                "locality": "Etten-leur"
+            }, {
+                "id": 33,
+                "abbreviation": "Beuningen",
+                "name": "MHCBeuningen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BS3",
+                "locality": "Ewijk"
+            }, {
+                "id": 94,
+                "abbreviation": "Geldermalsen",
+                "name": "HC Geldermalsen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FQ1",
+                "locality": "Geldermalsen"
+            }, {
+                "id": 95,
+                "abbreviation": "Geldrop",
+                "name": "Hockey Geldrop",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FR8",
+                "locality": "Geldrop"
+            }, {
+                "id": 96,
+                "abbreviation": "Gemert",
+                "name": "HC Gemert",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FS5",
+                "locality": "Gemert"
+            }, {
+                "id": 99,
+                "abbreviation": "Goes",
+                "name": "GMHC Goes",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FW3",
+                "locality": "Goes"
+            }, {
+                "id": 100,
+                "abbreviation": "Goirle",
+                "name": "M.H.C. Goirle",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FX0",
+                "locality": "Goirle"
+            }, {
+                "id": 102,
+                "abbreviation": "Goor",
+                "name": "GoorseMHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FZ4",
+                "locality": "Goor"
+            }, {
+                "id": 228,
+                "abbreviation": "Rapid",
+                "name": "G.H.C. RAPID",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NL0",
+                "locality": "Gorinchem"
+            }, {
+                "id": 103,
+                "abbreviation": "Gouda",
+                "name": "Goudse MHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GB9",
+                "locality": "Gouda"
+            }, {
+                "id": 279,
+                "abbreviation": "Voordaan",
+                "name": "MMHC Voordaan",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QZ7",
+                "locality": "Groenekan"
+            }, {
+                "id": 92,
+                "abbreviation": "GCHC",
+                "name": "G.C.H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FN0",
+                "locality": "Groningen"
+            }, {
+                "id": 97,
+                "abbreviation": "GHBS",
+                "name": "GHBS",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FT2",
+                "locality": "Groningen"
+            }, {
+                "id": 109,
+                "abbreviation": "Gron.Studs",
+                "name": "Groninger Studenten Hockey Club 'Forward'",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GH1",
+                "locality": "Groningen"
+            }, {
+                "id": 110,
+                "abbreviation": "Haackey",
+                "name": "HHC Haackey",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GJ5",
+                "locality": "Haaksbergen"
+            }, {
+                "id": 111,
+                "abbreviation": "Haarlem",
+                "name": "H.C. Haarlem",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GK2",
+                "locality": "Haarlem"
+            }, {
+                "id": 240,
+                "abbreviation": "Saxenburg",
+                "name": "HMHC Saxenburg",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PB6",
+                "locality": "Haarlem"
+            }, {
+                "id": 113,
+                "abbreviation": "Hardenberg",
+                "name": "GZG Hardenberg",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GM6",
+                "locality": "Hardenberg"
+            }, {
+                "id": 186,
+                "abbreviation": "Mezen",
+                "name": "MHC De Mezen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LJ0",
+                "locality": "Harderwijk"
+            }, {
+                "id": 108,
+                "abbreviation": "Groningen",
+                "name": "H.C. Groningen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GG4",
+                "locality": "Haren gn"
+            }, {
+                "id": 114,
+                "abbreviation": "Harlingen",
+                "name": "Harlinger Mixed Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GN3",
+                "locality": "Harlingen"
+            }, {
+                "id": 115,
+                "abbreviation": "Hattem",
+                "name": "Hattemse M.H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GP7",
+                "locality": "Hattem"
+            }, {
+                "id": 7,
+                "abbreviation": "Alliance",
+                "name": "MHC Alliance",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AK4",
+                "locality": "Heemstede"
+            }, {
+                "id": 226,
+                "abbreviation": "Quick Stick",
+                "name": "HHC Quick Stick",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NH2",
+                "locality": "Heerenveen"
+            }, {
+                "id": 123,
+                "abbreviation": "Heerhugowaard",
+                "name": "MHC Heerhugowaard",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GY0",
+                "locality": "Heerhugowaard"
+            }, {
+                "id": 335,
+                "abbreviation": "Nova",
+                "name": "HC Nova",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK19ND0",
+                "locality": "Heerlen"
+            }, {
+                "id": 125,
+                "abbreviation": "Heesch",
+                "name": "Mixed Hockey Club Heesch",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HC9",
+                "locality": "Heesch"
+            }, {
+                "id": 126,
+                "abbreviation": "HDL",
+                "name": "mixed hockeyclub HDL",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HD6",
+                "locality": "Heeswijk-dinther"
+            }, {
+                "id": 127,
+                "abbreviation": "Heeze",
+                "name": "Hockey Heeze",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HF0",
+                "locality": "HEEZE"
+            }, {
+                "id": 263,
+                "abbreviation": "Terri\u00ebrs",
+                "name": "H.V. de Terri\u00ebrs",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QF7",
+                "locality": "Heiloo"
+            }, {
+                "id": 281,
+                "abbreviation": "Voorne",
+                "name": "HC Voorne",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RC9",
+                "locality": "Hellevoetsluis"
+            }, {
+                "id": 130,
+                "abbreviation": "Helmond",
+                "name": "HC Helmond",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HJ8",
+                "locality": "Helmond"
+            }, {
+                "id": 266,
+                "abbreviation": "Twente",
+                "name": "Hockey Club Twente",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QJ5",
+                "locality": "Hengelo"
+            }, {
+                "id": 134,
+                "abbreviation": "Hilvarenbeek",
+                "name": "Hockeyclub Hilvarenbeek",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HQ7",
+                "locality": "Hilvarenbeek"
+            }, {
+                "id": 252,
+                "abbreviation": "Spandersbosch",
+                "name": "'t Spandersbosch",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PQ1",
+                "locality": "Hilversum"
+            }, {
+                "id": 141,
+                "abbreviation": "Hoevelaken",
+                "name": "M.H.C. Hoevelaken",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JB8",
+                "locality": "Hoevelaken"
+            }, {
+                "id": 143,
+                "abbreviation": "Holten-Rijssen",
+                "name": "Hockeyclub Holten Rijssen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JD2",
+                "locality": "Holten"
+            }, {
+                "id": 231,
+                "abbreviation": "Reigers",
+                "name": "MHC de Reigers",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NQ5",
+                "locality": "Hoofddorp"
+            }, {
+                "id": 145,
+                "abbreviation": "Hoogeveen",
+                "name": "Hoogeveen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JG3",
+                "locality": "Hoogeveen"
+            }, {
+                "id": 57,
+                "abbreviation": "Dash",
+                "name": "M.H.C. Dash",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CW4",
+                "locality": "Hoogezand"
+            }, {
+                "id": 253,
+                "abbreviation": "Spire",
+                "name": "HC Spire",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PR8",
+                "locality": "Hoogwoud"
+            }, {
+                "id": 148,
+                "abbreviation": "Horst",
+                "name": "HC Horst",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JK1",
+                "locality": "Horst"
+            }, {
+                "id": 149,
+                "abbreviation": "Houten",
+                "name": "Hockey Club Houten",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JL8",
+                "locality": "Houten"
+            }, {
+                "id": 229,
+                "abbreviation": "Rapide",
+                "name": "MHC Rapide",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NM7",
+                "locality": "Hulst"
+            }, {
+                "id": 298,
+                "abbreviation": "IJsseloever",
+                "name": "HC IJsseloever",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RZ0",
+                "locality": "Ijsselstein ut"
+            }, {
+                "id": 319,
+                "abbreviation": "Stix",
+                "name": "JHC-Stix",
+                "federation_login": "LISA",
+                "federation_reference_id": "MG20CZ9",
+                "locality": "Joure"
+            }, {
+                "id": 58,
+                "abbreviation": "DES",
+                "name": "MHC DES",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CX1",
+                "locality": "Kaatsheuvel"
+            }, {
+                "id": 155,
+                "abbreviation": "Kampen",
+                "name": "HC Kampen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JT4",
+                "locality": "Kampen"
+            }, {
+                "id": 48,
+                "abbreviation": "Catwijck",
+                "name": "HCC Catwyck",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11CL7",
+                "locality": "Katwijk"
+            }, {
+                "id": 162,
+                "abbreviation": "Krimpen",
+                "name": "M.H.C. Krimpen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KD5",
+                "locality": "Krimpen aan den Ijssel"
+            }, {
+                "id": 164,
+                "abbreviation": "Laren",
+                "name": "Larensche Mixed Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KG6",
+                "locality": "Laren nh"
+            }, {
+                "id": 165,
+                "abbreviation": "Leerdam",
+                "name": "HC Leerdam",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KH3",
+                "locality": "Leerdam"
+            }, {
+                "id": 166,
+                "abbreviation": "Leeuwarden",
+                "name": "Mixed Hockey Club Leeuwarden",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KJ7",
+                "locality": "Leeuwarden"
+            }, {
+                "id": 235,
+                "abbreviation": "Roomburg",
+                "name": "Leidse Hockey Club Roomburg",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NV0",
+                "locality": "Leiden"
+            }, {
+                "id": 327,
+                "abbreviation": "Thor",
+                "name": "Thor",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "MJ21QX3",
+                "locality": "Leiden"
+            }, {
+                "id": 4,
+                "abbreviation": "Alecto",
+                "name": "L.S.C. ALECTO",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AG6",
+                "locality": "Leiderdorp"
+            }, {
+                "id": 169,
+                "abbreviation": "Lelystad",
+                "name": "M.H.C. LELYSTAD",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KM8",
+                "locality": "Lelystad"
+            }, {
+                "id": 310,
+                "abbreviation": "Lemmer",
+                "name": "MHC Lemmer",
+                "federation_login": "LISA",
+                "federation_reference_id": "LV95KZ3",
+                "locality": "Lemmer"
+            }, {
+                "id": 173,
+                "abbreviation": "Liempde",
+                "name": "Hockeyclub Liempde",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11KR3",
+                "locality": "Liempde"
+            }, {
+                "id": 136,
+                "abbreviation": "Hisalis",
+                "name": "H.C. HISALIS",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HS1",
+                "locality": "Lisse"
+            }, {
+                "id": 174,
+                "abbreviation": "Lochem",
+                "name": "Lochemse Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KS0",
+                "locality": "Lochem"
+            }, {
+                "id": 175,
+                "abbreviation": "Loenen",
+                "name": "Loenense MHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KT7",
+                "locality": "Loenen aan de Vecht"
+            }, {
+                "id": 135,
+                "abbreviation": "Hilversum",
+                "name": "HMHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HR4",
+                "locality": "Loosdrecht"
+            }, {
+                "id": 53,
+                "abbreviation": "Cranendonck",
+                "name": "HC Cranendonck",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CR9",
+                "locality": "MAARHEEZE"
+            }, {
+                "id": 176,
+                "abbreviation": "Maarn",
+                "name": "MHC Maarn",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KV1",
+                "locality": "Maarn"
+            }, {
+                "id": 177,
+                "abbreviation": "Maarssen",
+                "name": "MHV Maarssen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KW8",
+                "locality": "Maarssen"
+            }, {
+                "id": 85,
+                "abbreviation": "Evergreen",
+                "name": "MHV Evergreen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FF4",
+                "locality": "Maassluis"
+            }, {
+                "id": 178,
+                "abbreviation": "Maastricht",
+                "name": "Maastrichtse Hockey Club MHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KX5",
+                "locality": "Maastricht"
+            }, {
+                "id": 179,
+                "abbreviation": "Made",
+                "name": "MADESE H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KY2",
+                "locality": "Made"
+            }, {
+                "id": 270,
+                "abbreviation": "Union",
+                "name": "R.K.H.V. Union",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QN3",
+                "locality": "Malden"
+            }, {
+                "id": 185,
+                "abbreviation": "Meppel",
+                "name": "Meppeler HV",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LH6",
+                "locality": "Meppel"
+            }, {
+                "id": 118,
+                "abbreviation": "Goeree Overflakkee",
+                "name": "HCGO",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GS8",
+                "locality": "Middelharnis"
+            }, {
+                "id": 188,
+                "abbreviation": "Mierlo",
+                "name": "HC Mierlo",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LL4",
+                "locality": "Mierlo"
+            }, {
+                "id": 194,
+                "abbreviation": "Mijdrecht",
+                "name": "Hockey Vereniging Mijdrecht",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LT0",
+                "locality": "Mijdrecht"
+            }, {
+                "id": 140,
+                "abbreviation": "Hoeksche Waard",
+                "name": "HC De Hoeksche Waard",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HZ0",
+                "locality": "Mijnsheerenland"
+            }, {
+                "id": 189,
+                "abbreviation": "Mill",
+                "name": "HC Mill",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LM1",
+                "locality": "Mill"
+            }, {
+                "id": 325,
+                "abbreviation": "Waterland",
+                "name": "Waterlandse Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "MJ18TR4",
+                "locality": "Monnickendam"
+            }, {
+                "id": 191,
+                "abbreviation": "Montfoort",
+                "name": "Hockeyclub Montfoort",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LQ9",
+                "locality": "Montfoort"
+            }, {
+                "id": 532,
+                "abbreviation": "Muiden",
+                "name": "SC Muiden",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK27DT3",
+                "locality": "MUIDEN"
+            }, {
+                "id": 193,
+                "abbreviation": "Muiderberg",
+                "name": "MHC Muiderberg",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LS3",
+                "locality": "Muiderberg"
+            }, {
+                "id": 292,
+                "abbreviation": "Westland",
+                "name": "HV Westland",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RS1",
+                "locality": "Naaldwijk"
+            }, {
+                "id": 196,
+                "abbreviation": "Naarden",
+                "name": "Hockey Club Naarden",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LW1",
+                "locality": "Naarden"
+            }, {
+                "id": 152,
+                "abbreviation": "Huizen",
+                "name": "Huizer HC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JQ3",
+                "locality": "Naarden"
+            }, {
+                "id": 346,
+                "abbreviation": "Phoenix (BE)",
+                "name": "Hockey Club Phoenix (Belgi\u00eb)",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK18KJ8",
+                "locality": "Neerpelt"
+            }, {
+                "id": 197,
+                "abbreviation": "Nieuwegein",
+                "name": "M.H.C. Nieuwegein",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LX8",
+                "locality": "Nieuwegein"
+            }, {
+                "id": 296,
+                "abbreviation": "IJssel",
+                "name": "HC De IJssel",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RX6",
+                "locality": "Nieuwerkerk aan den Ijssel"
+            }, {
+                "id": 198,
+                "abbreviation": "Nieuwkoop",
+                "name": "HC Nieuwkoop",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LY5",
+                "locality": "Nieuwkoop"
+            }, {
+                "id": 159,
+                "abbreviation": "Kikkers",
+                "name": "MHC de Kikkers",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JZ6",
+                "locality": "Nieuw-vennep"
+            }, {
+                "id": 203,
+                "abbreviation": "Nijkerk",
+                "name": "Nijkerk (H.C.)",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11MF5",
+                "locality": "Nijkerk gld"
+            }, {
+                "id": 225,
+                "abbreviation": "QZ",
+                "name": "HCQZ",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NG5",
+                "locality": "Nijmegen"
+            }, {
+                "id": 204,
+                "abbreviation": "Nijmegen",
+                "name": "NMHC Nijmegen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MG2",
+                "locality": "Nijmegen"
+            }, {
+                "id": 16,
+                "abbreviation": "Apeliotes",
+                "name": "N.S.H.C. Apeliotes",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AW8",
+                "locality": "Nijmegen"
+            }, {
+                "id": 129,
+                "abbreviation": "HCHN",
+                "name": "HCHN",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HH4",
+                "locality": "Nijverdal"
+            }, {
+                "id": 199,
+                "abbreviation": "Noordwijk",
+                "name": "Noordwijkse (H.C)",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11LZ2",
+                "locality": "Noordwijk"
+            }, {
+                "id": 200,
+                "abbreviation": "Nuenen",
+                "name": "Hockey Club Nuenen",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11MB7",
+                "locality": "Nuenen"
+            }, {
+                "id": 201,
+                "abbreviation": "Nunspeet",
+                "name": "MHC Nunspeet",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MC4",
+                "locality": "Nunspeet"
+            }, {
+                "id": 202,
+                "abbreviation": "Nuth",
+                "name": "HC Nuth",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MD1",
+                "locality": "Nuth"
+            }, {
+                "id": 167,
+                "abbreviation": "Leiden",
+                "name": "Leidsche en Oegstgeester H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KK4",
+                "locality": "OEGSTGEEST"
+            }, {
+                "id": 206,
+                "abbreviation": "Oirschot",
+                "name": "HC Oirschot",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MJ3",
+                "locality": "Oirschot"
+            }, {
+                "id": 138,
+                "abbreviation": "HOCO",
+                "name": "MHC HOCO",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HX6",
+                "locality": "Oisterwijk"
+            }, {
+                "id": 42,
+                "abbreviation": "Bully",
+                "name": "O.H.C. Bully",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CD1",
+                "locality": "Oldenzaal"
+            }, {
+                "id": 210,
+                "abbreviation": "Oosterbeek",
+                "name": "M.H.C. Oosterbeek",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MN1",
+                "locality": "Oosterbeek"
+            }, {
+                "id": 286,
+                "abbreviation": "Warande",
+                "name": "MHC De Warande",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RK5",
+                "locality": "Oosterhout nb"
+            }, {
+                "id": 212,
+                "abbreviation": "Oss",
+                "name": "Oss (M.H.C.)",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11MQ2",
+                "locality": "Oss"
+            }, {
+                "id": 213,
+                "abbreviation": "Oudenbosch",
+                "name": "M.H.C. Oudenbosch",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MR9",
+                "locality": "Oudenbosch"
+            }, {
+                "id": 344,
+                "abbreviation": "Losser",
+                "name": "Hockeyclub Losser",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK24QL1",
+                "locality": "Overdinkel"
+            }, {
+                "id": 128,
+                "abbreviation": "Peel en Maas",
+                "name": "Hockeyclub Peel & Maas",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HG7",
+                "locality": "Panningen"
+            }, {
+                "id": 76,
+                "abbreviation": "Eelde",
+                "name": "HC Eelde",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DT6",
+                "locality": "Paterswolde"
+            }, {
+                "id": 224,
+                "abbreviation": "Pijnacker",
+                "name": "HC Pijnacker",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NF8",
+                "locality": "Pijnacker"
+            }, {
+                "id": 220,
+                "abbreviation": "Prinsenbeek",
+                "name": "Hockeyclub Prinsenbeek",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MZ5",
+                "locality": "Prinsenbeek"
+            }, {
+                "id": 221,
+                "abbreviation": "Purmerend",
+                "name": "M.H.C. Purmerend",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NB0",
+                "locality": "Purmerend"
+            }, {
+                "id": 239,
+                "abbreviation": "Salland",
+                "name": "SMHC Salland",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NZ8",
+                "locality": "Raalte"
+            }, {
+                "id": 73,
+                "abbreviation": "DDHC",
+                "name": "DDHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DQ5",
+                "locality": "Raamsdonksveer"
+            }, {
+                "id": 323,
+                "abbreviation": "HCRB",
+                "name": "HCRB",
+                "federation_login": "LISA",
+                "federation_reference_id": "MG26YY8",
+                "locality": "Reeuwijk"
+            }, {
+                "id": 27,
+                "abbreviation": "Bemmel",
+                "name": "MHC Bemmel 800",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BK7",
+                "locality": "RESSEN"
+            }, {
+                "id": 608,
+                "abbreviation": "Ridderkerk",
+                "name": "Hockeyclub Ridderkerk",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK28PH0",
+                "locality": "Ridderkerk"
+            }, {
+                "id": 98,
+                "abbreviation": "Gilze-Rijen",
+                "name": "Gilze Rijen (H.C.)",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FV6",
+                "locality": "Rijen"
+            }, {
+                "id": 5,
+                "abbreviation": "Alkemade",
+                "name": "Hockeyclub Alkemade",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AH3",
+                "locality": "Rijpwetering"
+            }, {
+                "id": 238,
+                "abbreviation": "Rijswijk",
+                "name": "Rijswijksche Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NY1",
+                "locality": "Rijswijk"
+            }, {
+                "id": 89,
+                "abbreviation": "Forcial",
+                "name": "MHV Forcial",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FK9",
+                "locality": "Rockanje"
+            }, {
+                "id": 233,
+                "abbreviation": "Roden",
+                "name": "MHC Roden",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NS9",
+                "locality": "Roden"
+            }, {
+                "id": 51,
+                "abbreviation": "Concordia",
+                "name": "R.H.C. Concordia",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CP5",
+                "locality": "Roermond"
+            }, {
+                "id": 215,
+                "abbreviation": "Pelikaan",
+                "name": "R.M.H.C. de Pelikaan",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MT3",
+                "locality": "Roosendaal"
+            }, {
+                "id": 236,
+                "abbreviation": "Rosmalen",
+                "name": "Rosmalen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NW7",
+                "locality": "ROSMALEN"
+            }, {
+                "id": 339,
+                "abbreviation": "Delfshaven",
+                "name": "HC Delfshaven",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK23HQ4",
+                "locality": "Rotterdam"
+            }, {
+                "id": 326,
+                "abbreviation": "Feijenoord",
+                "name": "HC Feijenoord",
+                "federation_login": "LISA",
+                "federation_reference_id": "MJ21QV9",
+                "locality": "Rotterdam"
+            }, {
+                "id": 237,
+                "abbreviation": "Rotterdam",
+                "name": "Hockey Club Rotterdam",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NX4",
+                "locality": "Rotterdam"
+            }, {
+                "id": 276,
+                "abbreviation": "Victoria",
+                "name": "HV Victoria",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QW6",
+                "locality": "Rotterdam"
+            }, {
+                "id": 622,
+                "abbreviation": "Never Less",
+                "name": "Never Less",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK28TC7",
+                "locality": "Rotterdam"
+            }, {
+                "id": 209,
+                "abbreviation": "Ommoord",
+                "name": "OMHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MM4",
+                "locality": "Rotterdam"
+            }, {
+                "id": 261,
+                "abbreviation": "Tempo '34",
+                "name": "R.G.H.C. Tempo '34",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QC6",
+                "locality": "ROTTERDAM"
+            }, {
+                "id": 170,
+                "abbreviation": "Leonidas",
+                "name": "R.H.V. Leonidas",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KN5",
+                "locality": "Rotterdam"
+            }, {
+                "id": 190,
+                "abbreviation": "Mistral",
+                "name": "HC Mistral",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LN8",
+                "locality": "Rucphen"
+            }, {
+                "id": 180,
+                "abbreviation": "Magnus",
+                "name": "S.M.H.C. Magnus",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KZ9",
+                "locality": "Schagen"
+            }, {
+                "id": 142,
+                "abbreviation": "Holestick",
+                "name": "Holestick",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JC5",
+                "locality": "Scherpenzeel"
+            }, {
+                "id": 342,
+                "abbreviation": "Schiedam",
+                "name": "HC Schiedam",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK23RH1",
+                "locality": "Schiedam"
+            }, {
+                "id": 147,
+                "abbreviation": "Hopbel",
+                "name": "SMHC De Hopbel",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JJ4",
+                "locality": "Schijndel"
+            }, {
+                "id": 245,
+                "abbreviation": "Schoonhoven",
+                "name": "Schoonhovense MHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PH8",
+                "locality": "Schoonhoven"
+            }, {
+                "id": 52,
+                "abbreviation": "Craeyenhout",
+                "name": "Craeyenhout",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11CQ2",
+                "locality": "'s-gravenhage"
+            }, {
+                "id": 312,
+                "abbreviation": "Ypenburg",
+                "name": "HC Ypenburg",
+                "federation_login": "LISA",
+                "federation_reference_id": "LX34VT7",
+                "locality": "'s-gravenhage"
+            }, {
+                "id": 121,
+                "abbreviation": "HDM",
+                "name": "HDM",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11GW6",
+                "locality": "'s-Gravenhage"
+            }, {
+                "id": 122,
+                "abbreviation": "HDS",
+                "name": "HDS",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GX3",
+                "locality": "'s-gravenhage"
+            }, {
+                "id": 311,
+                "abbreviation": "Wateringse veld",
+                "name": "Hockey Club Wateringse Veld",
+                "federation_login": "LISA",
+                "federation_reference_id": "LV95LB8",
+                "locality": "'s-gravenhage"
+            }, {
+                "id": 160,
+                "abbreviation": "Klein Zwitserland",
+                "name": "Klein Zwitserland, H.C. ",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11KB1",
+                "locality": "'s-gravenhage"
+            }, {
+                "id": 64,
+                "abbreviation": "Dommel",
+                "name": "MHC de Dommel",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DF8",
+                "locality": "Sint-michielsgestel"
+            }, {
+                "id": 205,
+                "abbreviation": "Oedenrode",
+                "name": "Sint Oedenrode",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MH9",
+                "locality": "Sint-Oedenrode"
+            }, {
+                "id": 243,
+                "abbreviation": "Scoop",
+                "name": "HC Scoop",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PF4",
+                "locality": "Sittard"
+            }, {
+                "id": 248,
+                "abbreviation": "Sneek",
+                "name": "Sneeker Mixed Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PL6",
+                "locality": "Sneek"
+            }, {
+                "id": 249,
+                "abbreviation": "Soest",
+                "name": "MHC Soest",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PM3",
+                "locality": "Soest"
+            }, {
+                "id": 250,
+                "abbreviation": "Son",
+                "name": "HTCSON Hockey",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PN0",
+                "locality": "Son en Breugel"
+            }, {
+                "id": 324,
+                "abbreviation": "Spaarndam",
+                "name": "HC Spaarndam",
+                "federation_login": "LISA",
+                "federation_reference_id": "MJ18RY7",
+                "locality": "Spaarndam"
+            }, {
+                "id": 256,
+                "abbreviation": "Spijkenisse",
+                "name": "HV Spijkenisse",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PV6",
+                "locality": "Spijkenisse"
+            }, {
+                "id": 119,
+                "abbreviation": "HCSO",
+                "name": "HCSO",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GT5",
+                "locality": "Stadskanaal"
+            }, {
+                "id": 257,
+                "abbreviation": "Steenwijk",
+                "name": "MHC Steenwijk",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PW3",
+                "locality": "Steenwijk"
+            }, {
+                "id": 171,
+                "abbreviation": "Leusden",
+                "name": "MHC Leusden",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KP9",
+                "locality": "Stoutenburg"
+            }, {
+                "id": 207,
+                "abbreviation": "Olympia",
+                "name": "MHC Olympia",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MK0",
+                "locality": "Terneuzen"
+            }, {
+                "id": 264,
+                "abbreviation": "Teteringen",
+                "name": "MHCT",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QG4",
+                "locality": "Teteringen"
+            }, {
+                "id": 163,
+                "abbreviation": "Kromhouters",
+                "name": "THCC De Kromhouters",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KF9",
+                "locality": "Tiel"
+            }, {
+                "id": 328,
+                "abbreviation": "Tilburg",
+                "name": "H.C. Tilburg",
+                "federation_login": "LISA",
+                "federation_reference_id": "MJ56BV2",
+                "locality": "Tilburg"
+            }, {
+                "id": 246,
+                "abbreviation": "Shot",
+                "name": "SHOT",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PJ2",
+                "locality": "TILBURG"
+            }, {
+                "id": 289,
+                "abbreviation": "Were Di",
+                "name": "Were Di Tilburg",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RN6",
+                "locality": "Tilburg"
+            }, {
+                "id": 317,
+                "abbreviation": "Twello",
+                "name": "Voorster Hockeyclub Twello",
+                "federation_login": "LISA",
+                "federation_reference_id": "MF96PX4",
+                "locality": "TWELLO"
+            }, {
+                "id": 267,
+                "abbreviation": "Uden",
+                "name": "Hockey Club Uden",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QK2",
+                "locality": "Uden"
+            }, {
+                "id": 268,
+                "abbreviation": "Udenhout",
+                "name": "MHC Udenhout",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QL9",
+                "locality": "Udenhout"
+            }, {
+                "id": 269,
+                "abbreviation": "Uitgeest",
+                "name": "MHC Uitgeest",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QM6",
+                "locality": "Uitgeest"
+            }, {
+                "id": 329,
+                "abbreviation": "Oude IJsselstreek",
+                "name": "Oude Ijselstreek (H.C.)",
+                "federation_login": "LISA",
+                "federation_reference_id": "MJ56CW2",
+                "locality": "Ulft"
+            }, {
+                "id": 340,
+                "abbreviation": "Rijnvliet",
+                "name": "HC Rijnvliet",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK23LM8",
+                "locality": "Utrecht"
+            }, {
+                "id": 338,
+                "abbreviation": "UNO",
+                "name": "Hockeyclub UNO",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK22MP7",
+                "locality": "Utrecht"
+            }, {
+                "id": 156,
+                "abbreviation": "Kampong",
+                "name": "SV Kampong Hockey",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JV8",
+                "locality": "Utrecht"
+            }, {
+                "id": 272,
+                "abbreviation": "USHC",
+                "name": "U.S.H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QQ4",
+                "locality": "Utrecht"
+            }, {
+                "id": 321,
+                "abbreviation": "Zwaluwen",
+                "name": "Zwaluwen Utrecht",
+                "federation_login": "LISA",
+                "federation_reference_id": "MG20WT7",
+                "locality": "Utrecht"
+            }, {
+                "id": 247,
+                "abbreviation": "Sjinborn",
+                "name": "Sjinborn",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PK9",
+                "locality": "Valkenburg lb"
+            }, {
+                "id": 139,
+                "abbreviation": "HOD",
+                "name": "H.O.D.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HY3",
+                "locality": "Valkenswaard"
+            }, {
+                "id": 56,
+                "abbreviation": "Daring",
+                "name": "MHC Daring-Veendam",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CV7",
+                "locality": "Veendam"
+            }, {
+                "id": 255,
+                "abbreviation": "Spitsbergen",
+                "name": "VMHC Spitsbergen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PT2",
+                "locality": "Veenendaal"
+            }, {
+                "id": 93,
+                "abbreviation": "Geel-Zwart",
+                "name": "V.M.H.C. Geel-Zwart",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FP4",
+                "locality": "Veghel"
+            }, {
+                "id": 25,
+                "abbreviation": "Basko",
+                "name": "V.M.H.C. Basko",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BH6",
+                "locality": "Veldhoven"
+            }, {
+                "id": 18,
+                "abbreviation": "Arnhem",
+                "name": "Arnhemsche H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AY2",
+                "locality": "Velp gld"
+            }, {
+                "id": 534,
+                "abbreviation": "Delta Venlo",
+                "name": "HC Delta Venlo",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK27FS2",
+                "locality": "Venlo"
+            }, {
+                "id": 274,
+                "abbreviation": "Venray",
+                "name": "M.H.C. Venray",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QT5",
+                "locality": "Venray"
+            }, {
+                "id": 275,
+                "abbreviation": "Vianen",
+                "name": "MHC Vianen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QV9",
+                "locality": "Vianen ut"
+            }, {
+                "id": 218,
+                "abbreviation": "Pollux",
+                "name": "VMHC Pollux",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MX1",
+                "locality": "Vlaardingen"
+            }, {
+                "id": 87,
+                "abbreviation": "Fletiomare",
+                "name": "MHC Fletiomare",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FH8",
+                "locality": "Vleuten"
+            }, {
+                "id": 278,
+                "abbreviation": "Vlijmen",
+                "name": "VMHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QY0",
+                "locality": "Vlijmen"
+            }, {
+                "id": 330,
+                "abbreviation": "Walcheren",
+                "name": "HC Walcheren",
+                "federation_login": "LISA",
+                "federation_reference_id": "MJ56CY6",
+                "locality": "Vlissingen"
+            }, {
+                "id": 46,
+                "abbreviation": "Cartouche",
+                "name": "V.M.H.C. CARTOUCHE",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CJ3",
+                "locality": "Voorburg"
+            }, {
+                "id": 280,
+                "abbreviation": "Voorhout",
+                "name": "MHC Voorhout",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RB2",
+                "locality": "Voorhout"
+            }, {
+                "id": 90,
+                "abbreviation": "Forescate",
+                "name": "MHC Forescate",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FL6",
+                "locality": "Voorschoten"
+            }, {
+                "id": 192,
+                "abbreviation": "MOP",
+                "name": "V.M.H.& C.C. M.O.P.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LR6",
+                "locality": "Vught"
+            }, {
+                "id": 74,
+                "abbreviation": "DVS",
+                "name": "DVS",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11DR2",
+                "locality": "Waalre"
+            }, {
+                "id": 283,
+                "abbreviation": "Waalwijk",
+                "name": "HC Waalwijk",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RF0",
+                "locality": "Waalwijk"
+            }, {
+                "id": 284,
+                "abbreviation": "Waddinxveen",
+                "name": "HC Waddinxveen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RG7",
+                "locality": "Waddinxveen"
+            }, {
+                "id": 285,
+                "abbreviation": "Wageningen",
+                "name": "WMHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RJ8",
+                "locality": "Wageningen"
+            }, {
+                "id": 158,
+                "abbreviation": "Kieviten",
+                "name": "De Kieviten",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11JY9",
+                "locality": "Wassenaar"
+            }, {
+                "id": 107,
+                "abbreviation": "Groen-Geel",
+                "name": "Haagsche Countryclub Groen-Geel ",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11GF7",
+                "locality": "Wassenaar"
+            }, {
+                "id": 106,
+                "abbreviation": "HGC",
+                "name": "HGC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11HN6",
+                "locality": "Wassenaar"
+            }, {
+                "id": 287,
+                "abbreviation": "Weert",
+                "name": "HV Weert",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RL2",
+                "locality": "Weert"
+            }, {
+                "id": 288,
+                "abbreviation": "Weesp",
+                "name": "M.H.C. Weesp",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RM9",
+                "locality": "Weesp"
+            }, {
+                "id": 295,
+                "abbreviation": "Wijchen",
+                "name": "MHC Wijchen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RW9",
+                "locality": "Wijchen"
+            }, {
+                "id": 161,
+                "abbreviation": "Kraaien",
+                "name": "Z.H.C. de Kraaien",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KC8",
+                "locality": "Wijdewormer"
+            }, {
+                "id": 69,
+                "abbreviation": "Dorsteti",
+                "name": "Dorsteti",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DL0",
+                "locality": "Wijk bij Duurstede"
+            }, {
+                "id": 120,
+                "abbreviation": "HCW (Winschoten)",
+                "name": "Winschoten",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11GV9",
+                "locality": "Winschoten"
+            }, {
+                "id": 293,
+                "abbreviation": "Winsum",
+                "name": "H.C. Winsum",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RT8",
+                "locality": "Winsum"
+            }, {
+                "id": 20,
+                "abbreviation": "Avanti",
+                "name": "W.M.H.C. Avanti",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BB4",
+                "locality": "Winterswijk"
+            }, {
+                "id": 294,
+                "abbreviation": "Woerden",
+                "name": "MHC Woerden",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RV2",
+                "locality": "Woerden"
+            }, {
+                "id": 39,
+                "abbreviation": "Bommelerwaard",
+                "name": "MHC Bommelerwaard",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BZ2",
+                "locality": "Zaltbommel"
+            }, {
+                "id": 299,
+                "abbreviation": "Zandvoort",
+                "name": "Zandvoortsche H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SB5",
+                "locality": "Zandvoort"
+            }, {
+                "id": 300,
+                "abbreviation": "Zeewolde",
+                "name": "Hockey Club Zeewolde",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SC2",
+                "locality": "Zeewolde"
+            }, {
+                "id": 241,
+                "abbreviation": "Schaerweijde",
+                "name": "Schaerweijde",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PC3",
+                "locality": "Zeist"
+            }, {
+                "id": 216,
+                "abbreviation": "Phoenix",
+                "name": "SV Phoenix",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MV7",
+                "locality": "Zeist"
+            }, {
+                "id": 301,
+                "abbreviation": "Zevenaar",
+                "name": "Hockey Vereniging Zevenaar",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SD9",
+                "locality": "Zevenaar"
+            }, {
+                "id": 302,
+                "abbreviation": "Zevenbergen",
+                "name": "Hockeyclub Zevenbergen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SF3",
+                "locality": "Zevenbergen"
+            }, {
+                "id": 150,
+                "abbreviation": "HSD",
+                "name": "Hockeyclub Schouwen Duiveland",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JM5",
+                "locality": "Zierikzee"
+            }, {
+                "id": 303,
+                "abbreviation": "Zoetermeer",
+                "name": "Mixed Hockeyclub Zoetermeer",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SG0",
+                "locality": "Zoetermeer"
+            }, {
+                "id": 291,
+                "abbreviation": "Westerkwartier",
+                "name": "MHC Westerkwartier",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11RR4",
+                "locality": "Zuidhorn"
+            }, {
+                "id": 144,
+                "abbreviation": "Hondsrug",
+                "name": "Hockeyclub De Hondsrug",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JF6",
+                "locality": "Zuidlaren"
+            }, {
+                "id": 305,
+                "abbreviation": "Zundert",
+                "name": "Zundertse Hockeyclub",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SJ1",
+                "locality": "Zundert"
+            }, {
+                "id": 306,
+                "abbreviation": "Zutphen",
+                "name": "MHCZutphen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SK8",
+                "locality": "Zutphen"
+            }, {
+                "id": 146,
+                "abbreviation": "Hoorn (WFHC)",
+                "name": "WFHC",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JH0",
+                "locality": "Zwaag"
+            }, {
+                "id": 59,
+                "abbreviation": "Derby",
+                "name": "H.C. Derby",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CY8",
+                "locality": "Zwijndrecht"
+            }, {
+                "id": 333,
+                "abbreviation": "Zwolle",
+                "name": "HC Zwolle",
+                "federation_login": "LISA",
+                "federation_reference_id": "MK12LJ1",
+                "locality": "Zwolle"
+            }, {
+                "id": 2,
+                "abbreviation": "ABS",
+                "name": "ABS Hockey",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AB1",
+                "locality": null
+            }, {
+                "id": 29,
+                "abbreviation": "Berkel-Enschot",
+                "name": "Berkel-Enschot",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BN8",
+                "locality": null
+            }, {
+                "id": 37,
+                "abbreviation": "Bodegraven",
+                "name": "Bodegraven",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BX8",
+                "locality": null
+            }, {
+                "id": 44,
+                "abbreviation": "Cadetten",
+                "name": "Cadetten",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11CG2",
+                "locality": null
+            }, {
+                "id": 81,
+                "abbreviation": "EMHC",
+                "name": "E.M.H.C. (Eindhovense Mixed H.C.)",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11DZ8",
+                "locality": null
+            }, {
+                "id": 157,
+                "abbreviation": "Kerkrade",
+                "name": "HC Kerkrade",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11JX2",
+                "locality": null
+            }, {
+                "id": 230,
+                "abbreviation": "Reeuwijk",
+                "name": "H.C. Reeuwijk",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11NP8",
+                "locality": null
+            }, {
+                "id": 3,
+                "abbreviation": "Aeolus",
+                "name": "Hockey Club Aeolus",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AD5",
+                "locality": null
+            }, {
+                "id": 35,
+                "abbreviation": "Blerick",
+                "name": "Hockeyclub Blerick",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11BV4",
+                "locality": null
+            }, {
+                "id": 320,
+                "abbreviation": "Titans",
+                "name": "IHC Titans",
+                "federation_login": "LISA",
+                "federation_reference_id": "MG20WR3",
+                "locality": null
+            }, {
+                "id": 168,
+                "abbreviation": "Leidse Studs",
+                "name": "Leidsche Studenten Hockey Gezelschap",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11KL1",
+                "locality": null
+            }, {
+                "id": 211,
+                "abbreviation": "Oranje Zwart",
+                "name": "M.H.C. Oranje Zwart",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MP5",
+                "locality": null
+            }, {
+                "id": 277,
+                "abbreviation": "Vlissingen",
+                "name": "MHC Vlissingen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QX3",
+                "locality": null
+            }, {
+                "id": 187,
+                "abbreviation": "Middelburg",
+                "name": "Middelburgse M.H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11LK7",
+                "locality": null
+            }, {
+                "id": 219,
+                "abbreviation": "Porre",
+                "name": "Porre",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11MY8",
+                "locality": null
+            }, {
+                "id": 254,
+                "abbreviation": "Spirit",
+                "name": "S.H.C.C. Spirit",
+                "federation_login": "AllUnited",
+                "federation_reference_id": "HH11PS5",
+                "locality": null
+            }, {
+                "id": 19,
+                "abbreviation": "Asvion",
+                "name": "S.S.V. Asvion",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11AZ9",
+                "locality": null
+            }, {
+                "id": 259,
+                "abbreviation": "Tegelen",
+                "name": "Tegelen",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11PY7",
+                "locality": null
+            }, {
+                "id": 262,
+                "abbreviation": "Tempo '41",
+                "name": "Tempo '41",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QD3",
+                "locality": null
+            }, {
+                "id": 91,
+                "abbreviation": "Forward",
+                "name": "T.M.H.C. FORWARD",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11FM3",
+                "locality": null
+            }, {
+                "id": 265,
+                "abbreviation": "TMHC",
+                "name": "TMHC Tilburg",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QH1",
+                "locality": null
+            }, {
+                "id": 273,
+                "abbreviation": "Venlo",
+                "name": "Venlose Hockey Club",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11QS8",
+                "locality": null
+            }, {
+                "id": 304,
+                "abbreviation": "ZOW",
+                "name": "ZOW",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SH7",
+                "locality": null
+            }, {
+                "id": 308,
+                "abbreviation": "Zwolle",
+                "name": "Zwolsche M.H.C.",
+                "federation_login": "LISA",
+                "federation_reference_id": "HH11SM2",
+                "locality": null
+            }
