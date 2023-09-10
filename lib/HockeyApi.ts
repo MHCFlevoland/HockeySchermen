@@ -21,6 +21,17 @@ export async function getClubs(): Promise<any> {
     .catch((error) => console.log("error", error));
 }
 
+export async function getClubInfo(clubId: string): Promise<any> {
+  var requestOptions = {
+    method: "GET",
+    redirect: "follow",
+  } as RequestInit;
+
+  return fetch(getProxyUrl("/clubs/" + clubId), requestOptions)
+    .then((response) => response.json().then((data) => data?.data))
+    .catch((error) => console.log("error", error));
+}
+
 // lijst met teams van een club ophalen
 
 export async function getClubTeams(clubId: string): Promise<any> {
