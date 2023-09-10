@@ -30,6 +30,10 @@ function Home() {
     "fieldNames",
     [] as string[]
   );
+  const refresh = () => {
+    window.location.reload();
+  };
+  setTimeout(refresh, 50 * 60 * 1000);
 
   return (
     <>

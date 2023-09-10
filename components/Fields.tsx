@@ -7,7 +7,7 @@ import { useEffectOnce } from "usehooks-ts";
 function removePastDates(objects: any[]) {
   const now = new Date();
   const utcMin = new Date(now.toISOString());
-  utcMin.setMinutes(utcMin.getMinutes() - 70);
+  utcMin.setMinutes(utcMin.getMinutes() - 90);
   const utcMax = new Date(now.toISOString());
   utcMax.setHours(utcMax.getHours() + 10);
   return objects.filter(
@@ -23,13 +23,10 @@ export default function Fields({
   matches: any[];
 }) {
   matches = matches.filter((match) => match.field == fieldName);
-  console.log(matches);
   matches.sort((a, b) => {
     return new Date(a.datetime) > new Date(b.datetime) ? 1 : -1;
   });
-  console.log(matches);
   const futureEvents = removePastDates(matches).slice(0, 3);
-  console.log(futureEvents);
 
   return (
     <div id={fieldName} className="w-full h-fit mb-8">

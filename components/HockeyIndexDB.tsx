@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Suspense } from "react";
+import { Suspense, useEffect } from "react";
 import Fields from "./Fields";
 import { initDB } from "react-indexed-db-hook";
 import { useEffectOnce, useLocalStorage } from "usehooks-ts";
@@ -26,39 +26,38 @@ function HockeyIndexDB({
   const { add, clear, getAll } = useIndexedDB("matches");
   const [matches, setMatches] = useLocalStorage("matches", [] as any[]);
 
-  // useEffectOnce(() => {
-  //   clear();
-  //   getClubTeams(clubId).then((data) => {
-  //     let teams = [] as string[];
-  //     console.log(data);
-  //     data?.forEach((team: { id: string }) => {
-  //       teams = [...teams, team.id];
-  //       setClubTeams(teams);
-  //       getTeamMatchesUpcoming(team.id).then((data) => {
-  //         data?.forEach((match: any) => {
-  //           if (match.home_team.id !== team.id) {
-  //             return;
-  //           }
-  //           add({
-  //             id: match.id,
-  //             datetime: match.datetime,
-  //             field: match.field,
-  //             home_team_name: match.home_team.name,
-  //             home_team_logo: match.home_team.logo,
-  //             away_team_name: match.away_team.name,
-  //             away_team_logo: match.away_team.logo,
-  //           });
-  //         });
-  //       });
-  //     });
-  //   });
-  // });
-
   useEffectOnce(() => {
-    getAll().then((data) => {
-      setMatches(data);
+    clear();
+    getClubTeams(clubId).then((data) => {
+      let teams = [] as string[];
+      data?.forEach((team: { id: string }) => {
+        teams = [...teams, team.id];
+        getTeamMatchesUpcoming(team.id).then((data) => {
+          data?.forEach((match: any) => {
+            if (match.home_team.id !== team.id) {
+              return;
+            }
+            add({
+              id: match.id,
+              datetime: match.datetime,
+              field: match.field,
+              home_team_name: match.home_team.name,
+              home_team_logo: match.home_team.logo,
+              away_team_name: match.away_team.name,
+              away_team_logo: match.away_team.logo,
+            });
+          });
+        });
+      });
+      setClubTeams(teams);
     });
   });
+
+  useEffect(() => {
+    getAll().then((matches) => {
+      setMatches(matches);
+    });
+  }, [clubTeams]);
 
   return (
     <div className="flex flex-col max-h-full justify-center w-full m-8">
