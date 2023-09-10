@@ -1,4 +1,4 @@
-"use cl";
+"use client";
 export default function Fields({ fieldName }: { fieldName: string }) {
   return (
     <div id={fieldName} className="w-full h-fit mb-8">
