@@ -2,20 +2,15 @@
 
 import dynamic from "next/dynamic";
 import { getClubs } from "@/lib/HockeyApi";
-import {
-  Button,
-  Checkbox,
-  Label,
-  Select,
-  TextInput,
-  Tooltip,
-} from "flowbite-react";
-import { useRouter } from "next/navigation";
+import { Button, Label, Select, TextInput, Tooltip } from "flowbite-react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useState } from "react";
 import { useEffectOnce, useLocalStorage } from "usehooks-ts";
 
 function Page() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const preConfig = searchParams.get("config");
   // create state for clubs
   const [clubs, setClubs] = useState([]) as any[];
   const [clubId, setClubId] = useLocalStorage("clubId", "");
@@ -24,13 +19,26 @@ function Page() {
     [] as string[]
   );
 
+  const [preConfigUrl, setPreConfigUrl] = useState("");
   useEffectOnce(() => {
+    if (preConfig !== null) {
+      const config = JSON.parse(preConfig);
+      window.localStorage.clear();
+      setClubId(config.clubId);
+      setFieldNames(config.fieldNames);
+      router.push("/");
+    }
     if (typeof window !== "undefined") {
       getClubs().then((clubs) => {
         setClubs(clubs);
       });
     }
   });
+  const createPreConfigUrl = () => {
+    const url = new URL(window.location.origin + "/setup");
+    url.searchParams.append("config", JSON.stringify({ clubId, fieldNames }));
+    setPreConfigUrl(url.toString());
+  };
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
@@ -122,11 +130,12 @@ function Page() {
           <Button className="w-1/2" onClick={() => router.push("/")}>
             Open Scherm
           </Button>
-          <Button color="green" className="w-1/2" onClick={() => {}}>
+          <Button color="green" className="w-1/2" onClick={createPreConfigUrl}>
             Save Config als Link.
           </Button>
         </div>
       </div>
+      <p className="text-sm text-gray-500 mt-4">{preConfigUrl}</p>
     </div>
   );
 }
