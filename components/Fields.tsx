@@ -28,6 +28,13 @@ export default function Fields({
   });
   const futureEvents = removePastDates(matches).slice(0, 3);
 
+  const timeOptions = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+
   return (
     <div id={fieldName} className="w-full h-fit mb-8">
       <h1 className="border-b-4 border-blue-500 items-center px-6 text-4xl font-semibold">
@@ -46,7 +53,11 @@ export default function Fields({
             >
               <div className="col-span-1 flex flex-col justify-center">
                 <div className="text-2xl text-center text-blue-700 font-bold">
-                  {new Date(match.datetime).toLocaleTimeString()}
+                  {new Date(match.datetime).toLocaleString("nl-NL", {
+                    timeZone: "Europe/Amsterdam",
+                    hour: "2-digit",
+                    minute: "2-digit",
+                  })}
                 </div>
               </div>
               <div className="col-span-3 flex justify-center">
