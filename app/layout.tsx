@@ -17,11 +17,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        // className={inter.className}
-        className="overflow-hidden bg-center bg-cover"
-      >
-        <div id="root" className="max-h-screen h-screen overflow-hidden">
+      <body className="overflow-hidden bg-center bg-cover h-screen">
+        <div id="root" className="h-full overflow-hidden p-8">
           {children}
         </div>
       </body>
