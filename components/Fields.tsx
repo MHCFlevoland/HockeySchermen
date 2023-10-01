@@ -1,19 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { useIndexedDB } from "react-indexed-db-hook";
-import { useEffectOnce } from "usehooks-ts";
-
-function removePastDates(objects: any[]) {
-  const now = new Date();
-  const utcMin = new Date(now.toISOString());
-  utcMin.setMinutes(utcMin.getMinutes() - 90);
-  const utcMax = new Date(now.toISOString());
-  utcMax.setHours(utcMax.getHours() + 10);
-  return objects.filter(
-    (obj) => new Date(obj.datetime) > utcMin && new Date(obj.datetime) < utcMax
-  );
-}
+import { RemovePastDates } from "@/lib/RemovePastDates";
 
 export default function Fields({
   fieldName,
@@ -26,7 +13,7 @@ export default function Fields({
   matches.sort((a, b) => {
     return new Date(a.datetime) > new Date(b.datetime) ? 1 : -1;
   });
-  const futureEvents = removePastDates(matches).slice(0, 3);
+  const futureEvents = RemovePastDates(matches).slice(0, 3);
 
   return (
     <div id={fieldName} className="w-full h-fit mb-8">

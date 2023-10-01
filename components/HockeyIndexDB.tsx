@@ -8,7 +8,6 @@ import { useEffectOnce, useLocalStorage } from "usehooks-ts";
 import DBConfig from "@/lib/DBConfig";
 import { useIndexedDB } from "react-indexed-db-hook";
 import { getClubTeams, getTeamMatchesUpcoming } from "@/lib/HockeyApi";
-import { get } from "http";
 
 initDB(DBConfig);
 
@@ -57,6 +56,7 @@ function HockeyIndexDB({
     getAll().then((matches) => {
       setMatches(matches);
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clubTeams]);
 
   return (
