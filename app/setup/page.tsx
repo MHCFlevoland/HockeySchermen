@@ -6,6 +6,7 @@ import { Button, Label, Select, TextInput, Tooltip } from "flowbite-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useState } from "react";
 import { useEffectOnce, useLocalStorage } from "usehooks-ts";
+import { decrypt, encrypt } from "@/lib/crypt";
 
 function Page() {
   const router = useRouter();
@@ -22,7 +23,7 @@ function Page() {
   const [preConfigUrl, setPreConfigUrl] = useState("");
   useEffectOnce(() => {
     if (preConfig !== null) {
-      const config = JSON.parse(preConfig);
+      const config = JSON.parse(decrypt(preConfig));
       window.localStorage.clear();
       setClubId(config.clubId);
       setFieldNames(config.fieldNames);
@@ -36,7 +37,10 @@ function Page() {
   });
   const createPreConfigUrl = () => {
     const url = new URL(window.location.origin + "/setup");
-    url.searchParams.append("config", JSON.stringify({ clubId, fieldNames }));
+    url.searchParams.append(
+      "config",
+      encrypt(JSON.stringify({ clubId, fieldNames }))
+    );
     setPreConfigUrl(url.toString());
   };
 
