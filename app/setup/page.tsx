@@ -7,6 +7,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useState } from "react";
 import { useEffectOnce, useLocalStorage } from "usehooks-ts";
 import { decrypt, encrypt } from "@/lib/crypt";
+import Code from "@/components/Code";
 
 function Page() {
   const router = useRouter();
@@ -139,7 +140,11 @@ function Page() {
           </Button>
         </div>
       </div>
-      <p className="text-sm text-gray-500 mt-4">{preConfigUrl}</p>
+      {preConfigUrl !== "" ? (
+        <Code dollarDisplay="">
+          <span className="text-sm text-yellow-500 mt-4">{preConfigUrl}</span>
+        </Code>
+      ) : null}
     </div>
   );
 }
