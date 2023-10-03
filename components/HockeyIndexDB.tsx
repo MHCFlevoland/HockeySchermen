@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Suspense, useEffect } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Fields from "./Fields";
 import { initDB } from "react-indexed-db-hook";
 import { useEffectOnce, useLocalStorage } from "usehooks-ts";
@@ -23,7 +23,8 @@ function HockeyIndexDB({
     [] as string[]
   );
   const { add, clear, getAll } = useIndexedDB("matches");
-  const [matches, setMatches] = useLocalStorage("matches", [] as any[]);
+  // const [matches, setMatches] = useLocalStorage("matches", [] as any[]);
+  const [matches, setMatches] = useState([] as any[]);
 
   useEffectOnce(() => {
     clear();
@@ -49,6 +50,9 @@ function HockeyIndexDB({
         });
       });
       setClubTeams(teams);
+      // getAll().then((matches) => {
+      //   setMatches(matches);
+      // });
     });
   });
 

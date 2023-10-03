@@ -26,7 +26,7 @@ export default function News() {
             leftControl=" "
             rightControl=" "
             className="w-full h-[300px]"
-            slideInterval={45}
+            slideInterval={9000}
             indicators={false}
           >
             {news.map((item) => {
@@ -42,7 +42,7 @@ export default function News() {
                       </h1>
                     </div>
                   </div>
-                  <div className=" mb-auto pt-2 text-md">
+                  <div className=" mb-auto pt-2 text-md font-semibold">
                     {item.description}
                   </div>
                 </div>
