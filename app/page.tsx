@@ -1,10 +1,11 @@
 "use client";
 
 import dynamic from "next/dynamic";
-// import Calendar from "@/components/Calendar";
 // import DefaultNavbar from "@/components/DefaultNavbar";
 import { useEffectOnce, useLocalStorage } from "usehooks-ts";
 import { getClubInfo } from "@/lib/HockeyApi";
+import News from "@/components/News";
+import Calendar from "@/components/Calendar";
 
 const HockeyIndexDB = dynamic(() => import("@/components/HockeyIndexDB"), {
   loading: () => <div></div>,
@@ -38,11 +39,12 @@ function Home() {
         <section className="h-full flex justify-end col-span-5">
           <HockeyIndexDB fieldNames={fieldNames} clubId={clubId} />
         </section>
-        {/* <section className="h-full flex justify-end col-span-2">
+        <section className="h-full flex justify-end col-span-2">
           <div className="flex flex-col max-h-full justify-center w-full m-8">
+            <News />
             <Calendar />
           </div>
-        </section> */}
+        </section>
       </div>
     </>
   );
