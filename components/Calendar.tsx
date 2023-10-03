@@ -1,3 +1,5 @@
+"use client";
+
 import { getCalendar } from "@/lib/Webscraper";
 import { useState } from "react";
 import { useEffectOnce } from "usehooks-ts";
