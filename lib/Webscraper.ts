@@ -21,10 +21,14 @@ export async function getNews(): Promise<any[]> {
     const image = newsHTML("a.article-intro__image img")
       .map((i, el) => newsHTML(el).attr("src"))
       .get();
+    const description = newsHTML("div.article-intro__introduction")
+      .map((i, el) => newsHTML(el).text())
+      .get();
     for (let i = 0; i < title.length; i++) {
       items.push({
         title: title[i],
         image: image[i],
+        description: description[i].replace("Lees meer", ""),
       });
     }
   } catch (error) {
@@ -54,10 +58,6 @@ export async function getCalendar(): Promise<any[]> {
       .map((i, el) => calendarHTML(el).text())
       .get();
     for (let i = 0; i < title.length; i++) {
-      console.log(title[i]);
-      console.log(day[i]);
-      console.log(timeFrom[i]);
-      console.log(timeTo[i]);
       items.push({
         title: title[i],
         day: day[i],
