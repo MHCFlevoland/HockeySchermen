@@ -14,6 +14,7 @@ export default function Fields({
     return new Date(a.datetime) > new Date(b.datetime) ? 1 : -1;
   });
   const futureEvents = RemovePastDates(matches).slice(0, 3);
+  console.log(futureEvents);
 
   return (
     <div id={fieldName} className="w-full h-fit mb-8">

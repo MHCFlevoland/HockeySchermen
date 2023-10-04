@@ -58,10 +58,12 @@ function HockeyIndexDB({
 
   useEffect(() => {
     getAll().then((matches) => {
-      setMatches(matches);
+      new Promise((resolve) => setTimeout(resolve, 5000)).then(() => {
+        setMatches(matches);
+      });
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [clubTeams]);
+  }, [clubTeams, matches]);
 
   return (
     <div className="flex flex-col max-h-full justify-center w-full m-8">
