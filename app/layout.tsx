@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="overflow-hidden bg-center bg-cover h-screen">
-        <div id="root" className="h-full overflow-hidden p-8">
+        <div id="root" className="h-full overflow-hidden p-2">
           {children}
         </div>
       </body>
