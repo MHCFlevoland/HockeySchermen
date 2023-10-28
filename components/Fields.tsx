@@ -9,7 +9,9 @@ export default function Fields({
   fieldName: string;
   matches: any[];
 }) {
-  matches = matches.filter((match) => match.field == fieldName);
+  matches = matches.filter(
+    (match) => match.field == fieldName && match.status != "Cancelled"
+  );
   matches.sort((a, b) => {
     return new Date(a.datetime) > new Date(b.datetime) ? 1 : -1;
   });

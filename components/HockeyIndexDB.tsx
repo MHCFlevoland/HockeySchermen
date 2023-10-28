@@ -41,6 +41,7 @@ function HockeyIndexDB({
               id: match.id,
               datetime: match.datetime,
               field: match.field,
+              status: match.status,
               home_team_name: match.home_team.name,
               home_team_logo: match.home_team.logo,
               away_team_name: match.away_team.name,
