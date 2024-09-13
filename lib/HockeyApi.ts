@@ -54,7 +54,7 @@ export async function getTeamMatchesUpcoming(teamId: string): Promise<any> {
   } as RequestInit;
 
   return fetch(
-    getProxyUrl("/teams/" + teamId + "/matches/upcoming"),
+    getProxyUrl("/teams/" + teamId + "/matches/upcoming?&show_all=1"),
     requestOptions
   )
     .then((response) => response.json().then((data) => data?.data))

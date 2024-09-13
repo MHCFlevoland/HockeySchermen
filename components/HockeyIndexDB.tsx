@@ -1,80 +1,91 @@
 "use client";
 
+import DBConfig from "@/lib/DBConfig";
+import { getClubTeams, getTeamMatchesUpcoming } from "@/lib/HockeyApi";
 import dynamic from "next/dynamic";
 import { Suspense, useEffect, useState } from "react";
-import Fields from "./Fields";
-import { initDB } from "react-indexed-db-hook";
+import { initDB, useIndexedDB } from "react-indexed-db-hook";
 import { useEffectOnce, useLocalStorage } from "usehooks-ts";
-import DBConfig from "@/lib/DBConfig";
-import { useIndexedDB } from "react-indexed-db-hook";
-import { getClubTeams, getTeamMatchesUpcoming } from "@/lib/HockeyApi";
+import Fields from "./Fields";
 
 initDB(DBConfig);
 
 function HockeyIndexDB({
-  fieldNames,
-  clubId,
+	fieldNames,
+	clubId,
+	clubLocation,
 }: {
-  fieldNames: string[];
-  clubId: string;
+	fieldNames: string[];
+	clubId: string;
+	clubLocation: string;
 }) {
-  const [clubTeams, setClubTeams] = useLocalStorage(
-    "clubTeams",
-    [] as string[]
-  );
-  const { add, clear, getAll } = useIndexedDB("matches");
-  // const [matches, setMatches] = useLocalStorage("matches", [] as any[]);
-  const [matches, setMatches] = useState([] as any[]);
+	const [clubTeams, setClubTeams] = useLocalStorage(
+		"clubTeams",
+		[] as string[]
+	);
+	const { add, clear, getAll } = useIndexedDB("matches");
+	// const [matches, setMatches] = useLocalStorage("matches", [] as any[]);
+	const [matches, setMatches] = useState([] as any[]);
 
-  useEffectOnce(() => {
-    clear();
-    getClubTeams(clubId).then((data) => {
-      let teams = [] as string[];
-      data?.forEach((team: { id: string }) => {
-        teams = [...teams, team.id];
-        getTeamMatchesUpcoming(team.id).then((data) => {
-          data?.forEach((match: any) => {
-            if (match.home_team.id !== team.id) {
-              return;
-            }
-            add({
-              id: match.id,
-              datetime: match.datetime,
-              field: match.field,
-              status: match.status,
-              home_team_name: match.home_team.name,
-              home_team_logo: match.home_team.logo,
-              away_team_name: match.away_team.name,
-              away_team_logo: match.away_team.logo,
-            });
-          });
-        });
-      });
-      setClubTeams(teams);
-      // getAll().then((matches) => {
-      //   setMatches(matches);
-      // });
-    });
-  });
+	useEffectOnce(() => {
+		clear();
+		getClubTeams(clubId).then((data) => {
+			let teams = [] as string[];
+			data?.forEach((team: { id: string }) => {
+				teams = [...teams, team.id];
+				getTeamMatchesUpcoming(team.id).then((data) => {
+					data?.forEach((match: any) => {
+						console.log(
+							match.location.postal_code +
+								" " +
+								match.location.house_number +
+								" | " +
+								clubLocation
+						);
+						if (
+							match.location.postal_code + " " + match.location.house_number !==
+							clubLocation
+						) {
+							return;
+						}
+						add({
+							id: match.id,
+							datetime: match.datetime,
+							field: match.field,
+							status: match.status,
+							home_team_name: match.home_team.name,
+							home_team_logo: match.home_team.logo,
+							away_team_name: match.away_team.name,
+							away_team_logo: match.away_team.logo,
+						});
+					});
+				});
+			});
+			setClubTeams(teams);
+			// getAll().then((matches) => {
+			//   setMatches(matches);
+			// });
+		});
+	});
 
-  useEffect(() => {
-    getAll().then((matches) => {
-      new Promise((resolve) => setTimeout(resolve, 5000)).then(() => {
-        setMatches(matches);
-      });
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [clubTeams, matches]);
+	useEffect(() => {
+		getAll().then((matches) => {
+			new Promise((resolve) => setTimeout(resolve, 5000)).then(() => {
+				setMatches(matches);
+			});
+		});
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [clubTeams, matches]);
 
-  return (
-    <div className="flex flex-col max-h-full justify-center w-full m-8">
-      <Suspense fallback={<div>Loading...</div>}>
-        {fieldNames.map((fieldName, i) => {
-          return <Fields key={i} fieldName={fieldName} matches={matches} />;
-        })}
-      </Suspense>
-    </div>
-  );
+	return (
+		<div className="flex flex-col max-h-full justify-center w-full m-8">
+			<Suspense fallback={<div>Loading...</div>}>
+				{fieldNames.map((fieldName, i) => {
+					return <Fields key={i} fieldName={fieldName} matches={matches} />;
+				})}
+			</Suspense>
+		</div>
+	);
 }
 
 export default dynamic(() => Promise.resolve(HockeyIndexDB), { ssr: false });
