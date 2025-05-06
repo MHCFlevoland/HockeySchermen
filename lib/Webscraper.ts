@@ -5,7 +5,7 @@ function getProxyUrl(slug: string): string {
   // if (typeof window != "undefined") {
   //   url = JSON.parse(window.localStorage.getItem("PublicAPIKey") as string);
   // }
-  return "https://corsproxy.io/?" + encodeURIComponent(url + "/" + slug);
+  return "https://corsproxy.io/?url=" + encodeURIComponent(url + "/" + slug);
 }
 
 export async function getNews(): Promise<any[]> {

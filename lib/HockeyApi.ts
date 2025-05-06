@@ -3,7 +3,7 @@
 
 function getProxyUrl(slug: string): string {
   return (
-    "https://corsproxy.io/?" +
+    "https://corsproxy.io/?url=" +
     encodeURIComponent("https://publicaties.hockeyweerelt.nl/mc" + slug)
   );
 }
