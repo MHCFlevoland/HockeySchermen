@@ -20,7 +20,7 @@ export default function RootLayout({
 			<body className="overflow-hidden bg-center bg-cover h-screen bg-[url(/bg2.jpg)]">
 				<div
 					id="root"
-					className="h-full overflow-hidden p-2 backdrop-blur-sm backdrop-grayscale bg-white/60  shadow-black/20"
+					className="h-full overflow-hidden p-2 backdrop-blur-sm bg-white/75" //backdrop-grayscale
 				>
 					{children}
 				</div>
