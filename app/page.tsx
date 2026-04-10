@@ -27,7 +27,7 @@ function Home() {
 				setClubName(clubInfo.name);
 				setClubLogo(clubInfo.logo);
 				setClubLocation(
-					clubInfo.location.postal_code + " " + clubInfo.location.house_number
+					clubInfo.location.postal_code + " " + clubInfo.location.house_number,
 				);
 			});
 		}
@@ -44,20 +44,26 @@ function Home() {
 	return (
 		<>
 			{/* <DefaultNavbar imageURL={clubLogo} clubName={clubName} /> */}
-			<div className="grid grid-cols-7 gap-2 h-full">
-				<section className="h-full flex justify-end col-span-5">
-					<HockeyIndexDB
-						fieldNames={fieldNames}
-						clubId={clubId}
-						clubLocation={clubLocation}
-					/>
-				</section>
-				<section className="h-full flex justify-end col-span-2">
-					<div className="flex flex-col max-h-full justify-center w-full m-8">
-						<News />
-						<Calendar />
-					</div>
-				</section>
+			<div className="flex flex-col h-full">
+				<div className="grow grid grid-cols-7 gap-2 h-full">
+					<section className="h-full flex justify-end col-span-5">
+						<HockeyIndexDB
+							fieldNames={fieldNames}
+							clubId={clubId}
+							clubLocation={clubLocation}
+						/>
+					</section>
+					<section className="h-full flex justify-end col-span-2">
+						<div className="flex flex-col max-h-full justify-center w-full m-8">
+							<News />
+							<Calendar />
+						</div>
+					</section>
+				</div>
+				<iframe
+					src="https://sponsors.mhcflevoland.nl/?scroll=1"
+					style={{ width: "100%", height: "110px", border: "none" }}
+				></iframe>
 			</div>
 		</>
 	);
