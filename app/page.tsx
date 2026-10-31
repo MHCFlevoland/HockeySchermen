@@ -4,42 +4,21 @@ import dynamic from "next/dynamic";
 // import DefaultNavbar from "@/components/DefaultNavbar";
 import Calendar from "@/components/Calendar";
 import News from "@/components/News";
-import { getClubInfo } from "@/lib/HockeyApi";
-import { useEffectOnce, useLocalStorage } from "usehooks-ts";
 
-const HockeyIndexDB = dynamic(() => import("@/components/HockeyIndexDB"), {
+import { useLocalStorage } from "usehooks-ts";
+
+const FacilityMatches = dynamic(() => import("@/components/FacilityMatches"), {
 	loading: () => <div></div>,
 });
 
 function Home() {
-	const [clubId] = useLocalStorage("clubId", "");
-	if (clubId == "") {
-		window.location.href = "/setup";
-	}
-	useEffectOnce(() => {
-		if (
-			clubName == "" ||
-			clubName == undefined ||
-			clubLocation == "" ||
-			clubLocation == undefined
-		) {
-			getClubInfo(clubId).then((clubInfo) => {
-				setClubName(clubInfo.name);
-				setClubLogo(clubInfo.logo);
-				setClubLocation(
-					clubInfo.location.postal_code + " " + clubInfo.location.house_number,
-				);
-			});
-		}
-	});
-	const [clubLogo, setClubLogo] = useLocalStorage("clubLogo", "");
-	const [clubName, setClubName] = useLocalStorage("clubName", "");
-	const [clubLocation, setClubLocation] = useLocalStorage("clubLocation", "");
-	const [fieldNames] = useLocalStorage("fieldNames", [] as string[]);
+		const [facilityId] = useLocalStorage("facilityId", "141");
+				const [fieldNames] = useLocalStorage("fieldNames", [] as string[]);
 	const refresh = () => {
 		window.location.reload();
 	};
-	setTimeout(refresh, 50 * 60 * 1000);
+	// Match data refreshes in FacilityMatches every 3 minutes.
+	// Keep the screen mounted instead of reloading the whole page.
 
 	return (
 		<>
@@ -47,11 +26,10 @@ function Home() {
 			<div className="flex flex-col h-full">
 				<div className="grow grid grid-cols-7 gap-2 h-full">
 					<section className="h-full flex justify-end col-span-5">
-						<HockeyIndexDB
+						<FacilityMatches
 							fieldNames={fieldNames}
-							clubId={clubId}
-							clubLocation={clubLocation}
-						/>
+							facilityId={facilityId}
+																				/>
 					</section>
 					<section className="h-full flex justify-end col-span-2">
 						<div className="flex flex-col max-h-full justify-center w-full m-8">

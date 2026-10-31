@@ -1,21 +1,23 @@
 "use client";
 
-import { RemovePastDates } from "@/lib/RemovePastDates";
+
 
 export default function Fields({
   fieldName,
   matches,
+  showAll = false,
 }: {
   fieldName: string;
   matches: any[];
+  showAll?: boolean;
 }) {
   matches = matches.filter(
-    (match) => match.field == fieldName && match.status != "Cancelled"
+    (match) => (showAll || match.field == fieldName) && !["cancelled", "canceled"].includes(String(match.status).toLowerCase())
   );
   matches.sort((a, b) => {
     return new Date(a.datetime) > new Date(b.datetime) ? 1 : -1;
   });
-  const futureEvents = RemovePastDates(matches).slice(0, 3);
+  const futureEvents = matches;
   console.log(futureEvents);
 
   return (
@@ -47,7 +49,11 @@ export default function Fields({
                 <div className="text-2xl font-semibold">
                   {match.home_team_name}
                 </div>
-                <div className="mx-4 text-2xl font-semibold">-</div>
+                <div className="mx-4 text-2xl font-semibold">
+                  {["live", "result", "final"].includes(String(match.status).toLowerCase()) && match.home_score !== null && match.away_score !== null
+                    ? <span className="text-green-700" aria-label="Live score">{match.home_score} - {match.away_score} {match.is_live && <span className="text-base">LIVE</span>}</span>
+                    : <span>-</span>}
+                </div>
                 <div className="text-2xl font-semibold">
                   {match.away_team_name}
                 </div>
